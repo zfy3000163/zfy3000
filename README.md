@@ -10,5 +10,5 @@ vim plugin configure
     * taglist
     * nerdtree
     * srcexpl
-    *mark
+    * mark
 
