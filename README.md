@@ -5,4 +5,10 @@ vim plugin configure
     * mv vim ~/.vim
     * cp -a vimrc ~/.vimrc
 
+* plugs
+    * a_h
+    * taglist
+    * nerdtree
+    * srcexpl
+    *mark
 
