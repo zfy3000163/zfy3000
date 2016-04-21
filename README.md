@@ -1,2 +1,2 @@
-test1.0
-======
+vim plugin configure
+===================
