@@ -23,7 +23,9 @@ vim plugin configure
 
         \#!/bin/sh
         find . -name "*.h" -o -name "*.c" -o -name "*.cc" > cscope.files
+
         cscope -bkq -i cscope.files
+
         ctags -R
 
         这个命令会生成三个文件：cscope.out, cscope.in.out, cscope.po.out。
