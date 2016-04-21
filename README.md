@@ -28,5 +28,5 @@ vim plugin configure
 
         ctags -R
 
-    这个命令会生成三个文件：cscope.out, cscope.in.out, cscope.po.out。
+        这个命令会生成三个文件：cscope.out, cscope.in.out, cscope.po.out。
 
