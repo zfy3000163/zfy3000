@@ -21,12 +21,12 @@ vim plugin configure
     * cscope 指定文件夹创建数据库       
     为了方便使用，编写了下面的脚本来更新cscope和ctags的索引文件：
 
-    `<shell>`#!/bin/sh
-    find . -name "*.h" -o -name "*.c" -o -name "*.cc" > cscope.files
+        `<shell>`#!/bin/sh
+        find . -name "*.h" -o -name "*.c" -o -name "*.cc" > cscope.files
 
-    cscope -bkq -i cscope.files
+        cscope -bkq -i cscope.files
 
-    ctags -R
+        ctags -R
 
     这个命令会生成三个文件：cscope.out, cscope.in.out, cscope.po.out。
 
