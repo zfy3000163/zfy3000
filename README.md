@@ -18,7 +18,7 @@ vim plugin configure
     syn match cFunctions "\<[a-zA-Z_][a-zA-Z_0-9]*\>\s*("me=e-1
     hi cFunctions gui=NONE cterm=bold  ctermfg=blue
 
-    *  * cscope 指定文件夹创建数据库       
+    * cscope 指定文件夹创建数据库       
     为了方便使用，编写了下面的脚本来更新cscope和ctags的索引文件：
 
     `<shell>`#!/bin/sh
