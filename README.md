@@ -5,6 +5,7 @@ vim plugin configure
     * mv vim ~/.vim
     * cp -a vimrc ~/.vimrc
     * cp -a gitignore ~/.gitignore
+      git config --global core.excludesfile ~/.gitignore
 
 * plugs
     * a_h
