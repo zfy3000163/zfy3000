@@ -1,7 +1,10 @@
+.*
 Makefile
 Makefile.in
 *.deps
 *.o
+*.pyc
+*.pyo
 .libs
 *.IAB
 *.IAD
