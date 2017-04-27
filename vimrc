@@ -474,7 +474,7 @@ au BufRead,BufNewFile *py,*pyw,*.c,*.h,*html,*js,*.go set tabstop=8
 " C: tabs (pre-existing files) or 4 spaces (new files)
 au BufRead,BufNewFile *.py,*pyw,*.html,*.js,*.go set shiftwidth=4
 au BufRead,BufNewFile *.py,*.pyw,*.html,*.js,*.go set expandtab
-fu Select_c_style()
+fu Select_c_style1()
     if search('^\t', 'n', 150)
         set shiftwidth=8
         set noexpandtab
@@ -483,7 +483,7 @@ fu Select_c_style()
         set expandtab
     en
 endf
-au BufRead,BufNewFile *.c,*.h call Select_c_style()
+au BufRead,BufNewFile *.c,*.h call Select_c_style1()
 au BufRead,BufNewFile Makefile* set noexpandtab
 
 " Use the below highlight group when displaying bad whitespace is desired.
