@@ -45,12 +45,12 @@ vim plugin configure
         \ endif
 
 * git gitignore文件
-       1)批量取消跟踪git文件
+    1)批量取消跟踪git文件
        git  update-index  --assume-unchanged  `find ./ngunp -name Makefile |awk "{print $1}"`
-       2) git rm --cached FILENAME
+    2) git rm --cached FILENAME
        这样就可以了…如果后面跟的是目录就加上个 -r  就行了
 
-       3) git config --global core.excludesfile ~/.gitignore
+    3) git config --global core.excludesfile ~/.gitignore
        你会发现在~/.gitconfig文件中会出现excludesfile = /home/fff/.gitignore
        说明Git把文件过滤规则应用到了Global的规则中/home/fff/.gitignore。
        说明Git把文件过滤规则应用到了Global的规则中
@@ -63,7 +63,7 @@ vim plugin configure
 
 * 自己创建git仓库管理开发版本
     服务器端：
-    1. 创建git用户名和组
+    1.创建git用户名和组
     groupadd git
     useradd -g git -m git
     passwd git
