@@ -8,9 +8,10 @@
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 
-set mouse=a
+"set mouse=a
 set completeopt=longest,menu
 set term=xterm
+set t_Co=256
 set number
 set sw=2
 set tabstop=4
@@ -26,6 +27,7 @@ set number        "" show line number
 set ruler         "" always show current position
 "set cursorline    "" highlight the current line
 set showcmd
+
 
 
 function! SKEL_spec()
@@ -538,4 +540,4 @@ set softtabstop=4
 set laststatus=2
 " set cursorline
 
-
+highlight Search ctermfg=0 ctermbg=149 guifg=#000000 guibg=#afdf5f
