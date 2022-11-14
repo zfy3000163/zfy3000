@@ -19,7 +19,7 @@ set expandtab
 set shiftwidth=4
 set cindent
 set smartindent
-set autoindent
+"set autoindent
 set backspace=indent,eol,start  "" set backspace
 
 "" Display
